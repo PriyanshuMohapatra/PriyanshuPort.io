@@ -191,9 +191,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Malicious link Checker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a website to check if a link is malicious Implemented VirusTotal API for real-time phishing and malware detection.Ensured secure frontend-backend communication using CORS policies",
     tags: [
       {
         name: "react",
@@ -209,12 +209,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/PriyanshuMohapatra/Maliciousfrontend",
   },
   {
-    name: "Job IT",
+    name: "Medical Delivery Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a website to check if a link is maliciousImplemented VirusTotal API for real-time phishing and malware detectionEnsured secure frontend-backend communication using CORS policies",
     tags: [
       {
         name: "react",
@@ -230,12 +230,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/PriyanshuMohapatra/react.io",
   },
   {
-    name: "Trip Guide",
+    name: "BookReviewPlatForm",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A BookReview Platform where users can add a review of their own choice and connect with each other",
     tags: [
       {
         name: "nextjs",
@@ -251,7 +251,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/PriyanshuMohapatra/Bookrev",
   },
 ];
 
