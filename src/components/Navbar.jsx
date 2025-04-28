@@ -68,7 +68,7 @@ const Navbar = () => {
     } hover:text-white text-[18px] font-medium cursor-pointer`}
     onClick={() => setActive("Download CV")}
   >
-    <a href='/resume.pdf' download>
+    <a href='https://drive.google.com/file/d/1YkKApxeN5PFD8gu3SbjXw6tmtIbvGyCl/view?usp=drive_link' download>
       Download CV
     </a>
   </li>
