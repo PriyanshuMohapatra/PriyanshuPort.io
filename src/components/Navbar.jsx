@@ -60,7 +60,18 @@ const Navbar = () => {
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
+           
           ))}
+           <li
+    className={`${
+      active === "Download CV" ? "text-white" : "text-secondary"
+    } hover:text-white text-[18px] font-medium cursor-pointer`}
+    onClick={() => setActive("Download CV")}
+  >
+    <a href='/resume.pdf' download>
+      Download CV
+    </a>
+  </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>

@@ -1,4 +1,5 @@
 
+import { useHref } from "react-router-dom";
 import {
   mobile,
   backend,
@@ -40,6 +41,11 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "Download Cv",
+    title: "Cv",
+    
+  }
 ];
 
 const services = [
